@@ -1,0 +1,46 @@
+{
+  "fruits": [
+    {
+      "id": 1,
+      "name": "fruit1",
+      "quantity": 10,
+      "price": 5
+    },
+    {
+      "id": 2,
+      "name": "fruit2",
+      "quantity": 20,
+      "price": 15
+    },
+    {
+      "id": 3,
+      "name": "fruit3",
+      "quantity": 30,
+      "price": 25
+    },
+    {
+      "id": 4,
+      "name": "fruit4",
+      "quantity": 40,
+      "price": 35
+    },
+    {
+      "id": 5,
+      "name": "fruit5",
+      "quantity": 50,
+      "price": 45
+    },
+    {
+      "id": 6,
+      "name": "toto",
+      "quantity": 1,
+      "price": 3
+    },
+    {
+      "id": 9,
+      "name": "dhcxb",
+      "quantity": 2,
+      "price": 2
+    }
+  ]
+}

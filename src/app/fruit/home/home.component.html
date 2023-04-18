@@ -1,0 +1,25 @@
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Price</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let fruit of fruits">
+      <th scope="row">{{ fruit.id }}</th>
+      <td>{{ fruit.name }}</td>
+      <td>{{ fruit.quantity }}</td>
+      <td>{{ fruit.price }}</td>
+      <td>
+          <a href="" class="btn btn-primary" [routerLink]="['/fruit/edit', fruit.id]">Edit</a>
+          <button type="button" (click)="deleteFruit(fruit.id)" class="btn btn-danger ms-2">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
